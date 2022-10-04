@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand
 
-from movies.omdb_integration import search_and_save
+from movies.omdb_integrations import search_and_save
 
 
 class Command(BaseCommand):
